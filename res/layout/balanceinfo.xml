@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" 
+    android:background="@drawable/background">
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+        <!-- Header starts here -->
+        <LinearLayout android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/header_gradient"
+            android:paddingTop="5dip"
+           	android:layout_marginBottom="10dip"
+           	android:layout_alignParentTop="true">
+            <!-- logo starts -->
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/paycollectlogo"/>
+            <!-- logo ends -->
+            
+        </LinearLayout>
+        <!-- header ends here -->
+        
+        <!-- footer starts here -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/footer_repeat"
+            android:layout_alignParentBottom="true"
+            />
+        <!-- footer ends here -->
+        
+        <!-- main display -->
+        <LinearLayout
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:orientation="vertical" 
+    		android:layout_below="@+id/header"
+            android:layout_marginBottom="20dip"
+            android:layout_centerInParent="true">
+    
+       <TextView android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="20dip"
+           android:textSize="20sp"
+           android:id="@+id/baltitle"/>
+    
+       <RelativeLayout android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dip" >
+           
+           <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Account Name: "
+        		android:textStyle="bold"
+        		android:layout_alignParentLeft="true"
+        		
+        		android:id="@+id/txtaccname"/>
+           
+           <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:id="@+id/balaccountname"
+        		android:layout_alignParentRight="true"
+        		android:layout_marginLeft="10dip"
+        		android:layout_toRightOf="@+id/txtaccname"/>
+           
+		</RelativeLayout>
+		
+       <RelativeLayout android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dip">
+           
+           <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Account Number: "
+        		android:textStyle="bold"
+        		android:layout_alignParentLeft="true"
+        		android:id="@+id/txtaccnum"/>
+           
+           <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:id="@+id/balaccountnumber"
+        		android:layout_toRightOf="@+id/txtaccnum"
+        		android:layout_marginLeft="10dip"
+        		android:layout_alignParentRight="true"/>
+           
+       </RelativeLayout>
+    
+    
+    	<RelativeLayout android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:padding="10dip">
+           
+    	    <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Account Balance: "
+        		android:textStyle="bold"
+        		android:layout_alignParentLeft="true"
+        		android:id="@+id/txtaccbal"/>
+    	    
+    	    <TextView android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:id="@+id/balaccountbal"
+        		android:layout_toRightOf="@+id/txtaccbal"
+        		android:layout_marginLeft="10dip"
+        		android:layout_alignParentRight="true"/>
+    	</RelativeLayout>
+    
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip">
+        <TextView android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Account Type: "
+        	android:textStyle="bold"
+        	android:layout_alignParentLeft="true"
+        	android:id="@+id/txtacctype"/>
+        
+        <TextView android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/balaccounttype"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginLeft="10dip"
+        	android:layout_toRightOf="@+id/txtacctype"/>
+    </RelativeLayout>
+    
+    
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip">
+        <TextView android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Phone Number: "
+        	android:textStyle="bold"
+        	android:layout_alignParentLeft="true"
+        	android:id="@+id/txtphone"/>
+        
+        <TextView android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/balphone"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginLeft="10dip"
+        	android:layout_toRightOf="@+id/txtphone"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip">
+        <TextView android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Bank Name: "
+        	android:textStyle="bold"
+        	android:layout_alignParentLeft="true"
+        	android:id="@+id/txtbank"/>
+        
+    	<TextView android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/balbankname"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginLeft="10dip"
+        	android:layout_toRightOf="@id/txtbank"/>
+        
+    </RelativeLayout>
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/print"
+        android:padding="5dip"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/printbutton"/>
+    
+    
+
+</LinearLayout>
+        <!-- end of main display -->
+        
+    </RelativeLayout>
+
+</ScrollView>

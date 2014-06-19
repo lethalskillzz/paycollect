@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	
+	    
+	    <TextView android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="8dip"
+	        android:id="@+id/trnxid"
+	        android:layout_weight="0.7"
+	        android:textStyle="bold"/>
+	    
+	    
+	
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="8dip"
+	    android:id="@+id/acctnum"
+	    android:textStyle="bold"
+	   />
+	
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="8dip"
+	    android:id="@+id/amount"
+	    android:textStyle="bold"
+	   />
+	
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="8dip"
+	    android:id="@+id/type"
+	    android:textStyle="bold"
+	   />
+	
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="8dip"
+	    android:id="@+id/posttime"
+	    android:textStyle="bold"
+	   />
+	
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="8dip"
+	    android:id="@+id/agentid"
+	    android:textStyle="bold"
+	   />
+</LinearLayout>

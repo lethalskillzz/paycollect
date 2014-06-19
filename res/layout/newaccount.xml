@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        >
+        
+        <!-- Header starts here -->
+        <LinearLayout android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/header_gradient"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            >
+            <!-- logo starts -->
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:src="@drawable/paycollectlogo"/>
+            <!-- logo ends -->
+            
+        </LinearLayout>
+        <!-- header ends here -->
+        
+       
+		<ScrollView 
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:fillViewport="true"
+    		android:layout_below="@+id/header"
+    		android:layout_marginBottom="40dip">  
+    		     
+     		<LinearLayout
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		
+        		android:orientation="vertical"
+        		android:padding="10dip" >
+        
+     		    
+     		    <TextView android:layout_width="fill_parent"
+                	android:layout_height="wrap_content"
+                	android:textSize="20sp"
+                	android:text="@string/titlenewaccount"
+                	android:layout_marginBottom="30dp"
+                	android:paddingBottom="20dp"
+                	android:textStyle="bold"
+                	android:gravity="center"/>
+        
+                
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/firstname"
+                android:textStyle="bold"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="textPersonName"
+        		android:textSize="20sp"
+                android:id="@+id/firstname"/>
+            
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/lastname"
+                android:textStyle="bold"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:id="@+id/lastname"/>
+            
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/address"
+                android:textStyle="bold"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:id="@+id/address"/>
+            
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/mobilenumber"
+                android:textStyle="bold"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:textSize="20sp"
+                android:id="@+id/mobilenumber"/>
+            
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/emailaddress"
+                android:textStyle="bold"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="20dip"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:id="@+id/emailaddress"/>
+            
+            <Button 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/proceed"
+                android:background="@drawable/button"
+                android:layout_gravity="center"
+                />
+        
+      
+            
+    		</LinearLayout>
+    </ScrollView>
+        
+        
+         <!-- footer starts here -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/footer_repeat"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:id="@+id/footer"
+         />
+        <!-- footer ends here -->
+        
+    </RelativeLayout>

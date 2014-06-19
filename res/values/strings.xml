@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">paycollect</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="agentid">Agent ID</string>
+	<string name="password">Password</string>
+	<string name="login">Proceed</string>
+	<string name="credit">Deposit</string>
+	<string name="debit">Withdrawal</string>
+	<string name="newaccount">Create New Account</string>
+	<string name="transactions">Transactions</string>
+	
+	<string name="phonenumber">Phone Number</string>
+	<string name="amount">Amount</string>
+	<string name="acctnumber">Account Number</string>
+	<string name="acctname">Account Name</string>
+	<string name ="acctbal">Account Balance</string>
+	<string name="accttype">Account Type</string>
+	<string name="bankname">Bank Name</string>
+	<string name="enter">Enter</string>
+	<string name="submit">Submit</string>
+	<string name="proceed">Proceed</string>
+	<string name="back">Back</string>
+	<string name="validate">Validate</string>
+	<string name="confirm">Please confirm that the following details are correct before submitting!</string>
+	
+	<string name="balance">Check Balance</string>
+	<string name="rememberme">remember me</string>
+	<string name="transid">Transaction ID</string>
+	<string name="transdate">Transction Date</string>
+	
+	<string name="lastupdated">Last Updated</string>
+	<string name="agentname">Agent Name</string>
+	<string name="print">Print</string>
+	<string name="balanceinfo">Balance Info</string>
+	
+	<string name="passcode">Passcode</string>
+	<string name="withdraw">Withdrawal</string>
+	<string name="withdrawinfo">Withdrawal Info</string>
+	<string name="history">Transaction history</string>
+	
+	<string name="lastname">Last name</string>
+	<string name="firstname">First name</string>
+	<string name="address">Address</string>
+	<string name="mobilenumber">Mobile number</string>
+	<string name="emailaddress">Email address</string>
+	<string name="newaccount">Create new account</string>
+	
+	<string name="titledeposit">Deposit</string>
+	<string name="titlewithdraw">Withdraw</string>
+	<string name="titlebalance">Check Balance</string>
+	<string name="titlenewaccount">Create new account</string>
+	<string name="titlehistory">History</string>
+</resources>
