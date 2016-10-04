@@ -282,7 +282,7 @@ public class CreditActivity extends SherlockActivity {
 					String bankName = array.getString("bankName");
 					String agentName = array.getString("agentName");
 					//String transDate = array.getString("transDt");
-					
+					                 
 					
 					Intent intent = new Intent(CreditActivity.this, ValidationActivity.class);
 					Bundle bdl = new Bundle();
