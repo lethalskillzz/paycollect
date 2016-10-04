@@ -3,4 +3,4 @@ package com.cellcore.app.payconnect;
 
 public final class BuildConfig {
     public final static boolean DEBUG = true;
-}
+}    
